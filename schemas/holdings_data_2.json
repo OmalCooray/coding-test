@@ -1,0 +1,9 @@
+{
+    "business_date": {"dtype": "date", "format": "%y-%m-%d"},
+    "portfolio_id": {"dtype": "str"},
+    "security_id": {"dtype": "str"},
+    "exchange": {"dtype": "str", "categories": ["NASDAQ", "NYSE"]},
+    "quantity": {"dtype": "int"},
+    "market_value": {"dtype": "float"},
+    "currency": {"dtype": "str", "categories": ["USD", "EUR"]}
+}

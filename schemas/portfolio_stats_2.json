@@ -1,0 +1,11 @@
+{
+    "business_date": {"dtype": "date", "format": "%y-%m-%d"},
+    "portfolio_id": {"dtype": "str"},
+    "nav": {"dtype": "float"},
+    "daily_pnl": {"dtype": "float"},
+    "ytd_return": {"dtype": "float"},
+    "sharpe_ratio": {"dtype": "float"},
+    "volatility": {"dtype": "float"},
+    "var_95": {"dtype": "float"}
+
+}
